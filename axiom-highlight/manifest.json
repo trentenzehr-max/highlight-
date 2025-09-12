@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Axiom No Socials Highlighter",
+  "version": "1.0",
+  "description": "Highlights coins on Axiom with no socials and age >= 6 months.",
+  "content_scripts": [
+    {
+      "matches": ["https://axiom.trade/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": []
+}
